@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    <h1>Jogo da Velha</h1>
+
+    <div>
+        <div id="l1" class="quadrado" onclick="escolherQuadrado">-</div>
+        <div id="l2" class="quadrado">-</div>
+        <div id="l3" class="quadrado">-</div>
+    </div>
+
+    <div>
+        <div id="l4" class="quadrado">-</div>
+        <div id="l5" class="quadrado">-</div>
+        <div id="l6" class="quadrado">-</div>
+    </div>
+
+    <div>
+        <div id="l7" class="quadrado">-</div>
+        <div id="l8" class="quadrado">-</div>
+        <div id="l9" class="quadrado">-</div>
+    </div>
+
+    <div class="jogador">
+        <label for="">
+            jogador: 
+        </label>
+        <label id="player" for=""></label>
+    </div>
+
+    <div  class="vencedor">
+        <label for="">
+            Vencedor: 
+        </label>
+        <label id="winner" for=""></label>
+    </div>
+    <div>
+        <button>
+            Reiniciar
+        </button>
+    </div>
+ 
+</body>
+
+<script src="/scripts/velha.js"></script>
+
+</html>
